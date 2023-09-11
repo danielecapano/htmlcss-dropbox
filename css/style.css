@@ -1,1 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+:root {
+    --bg-hero: #B4D0E7;
+    --bg-button: #0061FF;
+    --border-color: #EDEDEE;
+    --bg-designit: #A2D39B;
+    --border-designit: #D1E9CD;
+    --bg-designit-big: #F5F5F5;
+    --bg-asu: #61082B;
+    --bg-uf: #0093CE;
+    --bg-topps: #FF1C1C;
+    --bg-wbr: #D5001F;
+    --bg-hearst: #B4D0E7;
+    --bg-loney-planet: #0D2481;
+    --bg-clear-channel: #FFD830;
+    --bg-try: #B4D0E7;
+    --text-try: #61082B;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+button {
+    border: none;
+    outline: none;
+}
