@@ -43,3 +43,37 @@ button {
     border: none;
     outline: none;
 }
+
+/* LAYOUT */
+
+.container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.container-xl {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.row {
+    display: flex;
+}
+
+div[class^="col-"] {
+    padding: 0 25px;
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+}
+
+.col-8 {
+    width: calc((100% / 12) * 8);
+}
+
+.col-12 {
+    width: 100%;
+}
