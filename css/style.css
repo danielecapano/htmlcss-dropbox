@@ -93,12 +93,12 @@ div[class^="col-"] {
 }
 
 .large {
-    width: calc((100% / 12) * 8);
+    width: calc((((100% - 100px) / 3) * 2) + 75px);
     padding-right: 25px;
 }
 
 .small {
-    width: calc((100% / 12) * 4);
+    width: calc(((100% - 100px) / 3) + 25px);
     padding-left: 25px;
 }
 
