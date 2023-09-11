@@ -3,7 +3,7 @@
 :root {
     --bg-hero: #B4D0E7;
     --bg-button: #0061FF;
-    --border-color: #EDEDEE;
+    --border-color: #d2d2d2;
     --bg-designit: #A2D39B;
     --border-designit: #D1E9CD;
     --bg-designit-big: #F5F5F5;
@@ -85,6 +85,10 @@ div[class^="col-"] {
     padding: 0 25px;
 }
 
+.col-2 {
+    width: calc((100% / 12) * 2);
+}
+
 
 .col-4 {
     width: calc((100% / 12) * 4);
@@ -159,6 +163,7 @@ div[class^="col-"] {
 .hero {
     background-color: var(--bg-hero);
     padding: 85px 0 75px;
+    max-height: 740px;
 }
 
 .hero-title {
@@ -176,9 +181,20 @@ div[class^="col-"] {
 }
 
 .arrow {
-    margin-top: auto;
+    /* margin-top: auto; */
     font-size: 50px;
     line-height: 50px;
+    animation: arrow-move 1s alternate infinite;
+}
+
+@keyframes arrow-move {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
 }
 
 /* SECTION PLANES */
@@ -333,4 +349,77 @@ div[class^="col-"] {
 
 .clients {
     padding: 135px 0 150px;
+}
+
+/* SECTION BANNER */
+
+.banner div[class^="col-"] {
+    padding: 0;
+}
+
+.banner-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    aspect-ratio: 1;
+    /* padding: 80px; */
+}
+
+.banner-card-image img {
+    max-width: 160px;
+    filter: invert(1);
+}
+
+.designit {
+    background-color: var(--bg-designit);
+    border: 15px solid var(--border-designit);
+}
+
+.uf-florida {
+    background-color: var(--bg-uf);
+}
+
+.asu {
+    background-color: var(--bg-asu);
+}
+
+.topps {
+    background-color: var(--bg-topps);
+}
+
+.banner-card.big {
+    padding: 50px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+    background-color: var(--bg-designit-big);
+}
+
+.big .banner-card-image img {
+    max-width: 270px;
+    filter: invert(0);
+}
+
+.big .separator {
+    width: 110px;
+    margin: 0;
+
+}
+
+.wbr {
+    background-color: var(--bg-wbr);
+}
+
+.lonely-planet {
+    background-color: var(--bg-loney-planet);
+}
+
+.hearst {
+    background-color: var(--bg-hearst);
+}
+
+.clear-channel {
+    background-color: var(--bg-clear-channel);
 }
