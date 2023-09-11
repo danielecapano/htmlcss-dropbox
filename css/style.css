@@ -52,13 +52,13 @@ button {
 /* LAYOUT */
 
 .container {
-    max-width: 1050px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0 25px;
 }
 
 .container-xl {
-    max-width: 1250px;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 25px;
 }
@@ -90,6 +90,16 @@ div[class^="col-"] {
 
 .col-12 {
     width: 100%;
+}
+
+.large {
+    width: calc((100% / 12) * 8);
+    padding-right: 25px;
+}
+
+.small {
+    width: calc((100% / 12) * 4);
+    padding-left: 25px;
 }
 
 
