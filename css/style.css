@@ -275,7 +275,7 @@ div[class^="col-"] {
     margin-bottom: 40px;
 }
 
-.buy-link {
+.link {
     text-decoration: underline;
     color: var(--bg-button);
 }
@@ -327,4 +327,10 @@ div[class^="col-"] {
 .business-card-title {
     font-size: 24px;
     margin-bottom: 35px;
+}
+
+/* SECTION CLIENTS */
+
+.clients {
+    padding: 135px 0 150px;
 }
