@@ -16,12 +16,17 @@
     --bg-clear-channel: #FFD830;
     --bg-try: #B4D0E7;
     --text-try: #61082B;
+    --white: #FFFFFF;
 }
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul,
@@ -81,4 +86,39 @@ div[class^="col-"] {
 
 .col-12 {
     width: 100%;
+}
+
+/* HEADER */
+
+.page-header {
+    padding: 24px 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+.menu-link {
+    line-height: 35px;
+    padding: 0 20px;
+}
+
+.logo {
+    padding-right: 20px;
+    ;
+}
+
+.small-button {
+    display: inline-block;
+    line-height: 35px;
+    padding: 0 20px;
+    background-color: var(--bg-button);
+    color: var(--white);
 }
