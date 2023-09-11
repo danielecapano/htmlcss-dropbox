@@ -317,3 +317,14 @@ div[class^="col-"] {
 .partner-text {
     margin-bottom: 35px;
 }
+
+/* SECTION BUSINESS */
+
+.business {
+    padding: 75px 0;
+}
+
+.business-card-title {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
