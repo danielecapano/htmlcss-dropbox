@@ -80,7 +80,6 @@ button {
     row-gap: 50px;
 }
 
-
 div[class^="col-"] {
     padding: 0 25px;
 }
@@ -125,6 +124,12 @@ div[class^="col-"] {
 
 .small-button {
     line-height: 35px;
+}
+
+.button-white {
+    background-color: var(--white);
+    color: var(--black);
+    width: 100%;
 }
 
 /* HEADER */
@@ -325,14 +330,6 @@ div[class^="col-"] {
     padding: 75px 0;
 }
 
-.button-white {
-    background-color: var(--white);
-    border-top: 1px solid var(--border-color);
-    border-right: 1px solid var(--border-color);
-    border-bottom: 1px solid var(--black);
-    border-left: 1px solid var(--black);
-    color: var(--black);
-}
 
 .partner-text {
     margin-bottom: 35px;
@@ -426,4 +423,11 @@ div[class^="col-"] {
 
 .clear-channel {
     background-color: var(--bg-clear-channel);
+}
+
+/* SECTION TRY */
+
+.try {
+    padding: 135px 0;
+    background-color: var(--bg-try);
 }
