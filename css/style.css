@@ -141,13 +141,17 @@ div[class^="col-"] {
 }
 
 .menu-link {
+    display: block;
     line-height: 35px;
     padding: 0 20px;
 }
 
 .logo {
-    padding-right: 20px;
-    ;
+    padding-left: 0;
+}
+
+.logo img {
+    display: block;
 }
 
 .small-button {
