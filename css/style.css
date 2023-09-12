@@ -431,3 +431,30 @@ div[class^="col-"] {
     padding: 135px 0;
     background-color: var(--bg-try);
 }
+
+/* SECTION FAQ */
+
+.faq {
+    padding: 160px 0;
+}
+
+.faq-list {
+    font-weight: 700;
+}
+
+.faq-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 100px;
+    border-top: 2px solid var(--border-color);
+}
+
+.faq-item:last-child {
+    border-bottom: 2px solid var(--border-color);
+}
+
+.faq-item i {
+    font-size: 12px;
+    padding-right: 40px;
+}
