@@ -123,6 +123,10 @@ div[class^="col-"] {
     text-align: center;
 }
 
+.small-button {
+    line-height: 35px;
+}
+
 /* HEADER */
 
 .page-header {
@@ -131,12 +135,14 @@ div[class^="col-"] {
 
 .navbar {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
 .menu-list {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
@@ -154,13 +160,7 @@ div[class^="col-"] {
     display: block;
 }
 
-.small-button {
-    display: inline-block;
-    line-height: 35px;
-    padding: 0 20px;
-    background-color: var(--bg-button);
-    color: var(--white);
-}
+
 
 /* HERO */
 
