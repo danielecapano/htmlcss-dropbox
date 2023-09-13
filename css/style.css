@@ -360,19 +360,23 @@ div[class^="col-"] {
     margin-bottom: 35px;
 }
 
-/* SECTION CLIENTS */
+/* TESTIMONIAL */
 
-.clients {
-    padding: 135px 0 150px;
+.testimonial {
+    padding: 135px 0 0;
 }
 
-/* SECTION BANNER */
+.mb-150 {
+    margin-bottom: 150px;
+}
 
-.banner div[class^="col-"] {
+/* TILES */
+
+.tiles div[class^="col-"] {
     padding: 0;
 }
 
-.banner-card {
+.tile {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -381,8 +385,8 @@ div[class^="col-"] {
     /* padding: 80px; */
 }
 
-.banner-card-image img {
-    max-width: 160px;
+.tile img {
+    width: 50%;
     filter: invert(1);
 }
 
@@ -403,7 +407,7 @@ div[class^="col-"] {
     background-color: var(--bg-topps);
 }
 
-.banner-card.big {
+.tile.big {
     padding: 50px;
     flex-direction: column;
     align-items: flex-start;
@@ -412,14 +416,25 @@ div[class^="col-"] {
     background-color: var(--bg-designit-big);
 }
 
-.big .banner-card-image img {
-    max-width: 270px;
+.tile.big img {
+    width: 50%;
     filter: invert(0);
 }
 
-.big .separator {
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.quote-container::before {
+    content: '';
+    display: block;
+    height: 2px;
     width: 110px;
-    margin: 0;
+    background-color: var(--border-color);
 
 }
 
@@ -439,7 +454,7 @@ div[class^="col-"] {
     background-color: var(--bg-clear-channel);
 }
 
-/* SECTION TRY */
+/* TRY */
 
 .try {
     padding: 135px 0;
